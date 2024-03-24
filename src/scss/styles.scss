@@ -24,3 +24,67 @@
 
 // Custom styles:
 
+.bg-image {
+  background-image: url(../img/pirate-ship.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 315px;
+  color: white;
+}
+
+.small-image {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #B0E0E6;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.carousel {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+  width: 100%;
+  max-width: 768px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card {
+  padding-bottom: 20px;
+}
+
+.animated {
+  animation-duration: 2s;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+
+
+
